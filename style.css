@@ -93,16 +93,17 @@ img {
     left: 0;
 }
 
-.card  .discount.price{
+.card  .discount .price{
     background-color: #ff0000;
     margin-left: 5px;
     padding: 4px 7px;
 }
 
-.card  .discount.price{
+.card  .discount .eco{
     background-color: #008000;
     padding: 4px 7px;
 }
+
 
 
 
