@@ -20,6 +20,10 @@ img {
     margin-right: -10px;
 }
 
+.margin{
+    margin-bottom: 40px;
+}
+
 .row > * {
     padding: 0 10px;
 }
@@ -90,7 +94,7 @@ h6 {
 header{
        
         padding: 18px 0;
-        margin-bottom: 60px;
+        margin-bottom: 50px;
         color: white;
         background-color: #ff6900;
     }
