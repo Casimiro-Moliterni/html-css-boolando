@@ -60,6 +60,15 @@ img {
     flex-grow: 1;
 }
 
+
+/* tipografia  */
+*{
+    font-family: sans-serif;
+}
+
+
+
+
 /* header  */
 header{
        
@@ -68,22 +77,21 @@ header{
         color: white;
         background-color: #ff6900;
     }
-
-
-
-
-header img{
-    height: 33px;
-}
-
-header nav {
+    
+nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     
 }
 
-nav div{
-    justify-content: space-between;
+
+
+header nav  img{
+    height: 33px;
+    justify-items: center;
 }
+
 
 
 
