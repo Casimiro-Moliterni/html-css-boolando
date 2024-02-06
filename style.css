@@ -102,11 +102,15 @@ h6 {
 }
 /* header  */
 header{
-       
+       position: sticky;
         padding: 18px 0;
         margin-bottom: 50px;
         color: white;
         background-color: #ff6900;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        width: 100%;
     }
     
 nav{
@@ -168,23 +172,38 @@ header nav  img{
     right: 0;   
     background-color: white;
     padding: 10px 11px;
-    
+    font-size: 20px;
 }
+
+
+
+
+.card:hover .like{
+    color: #ff0000;
+   
+}
+
 
 .card:hover .like {
     display: block;
 }
 
-.card .card-image-hover {
+.card .card-image-hover{
     display: none;
 }
 
-.card:hover .card-image-hover {
+.card:hover .card-image-hover{
     display: block;
 }
+
 .card:hover .card-image-default {
     display: none;
 }
+
+
+
+
+
 
 .btn, nav div{
     border: none;
