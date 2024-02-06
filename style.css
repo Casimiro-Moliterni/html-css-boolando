@@ -60,8 +60,24 @@ img {
     flex-grow: 1;
 }
 
+/* header  */
 
-/* caeds  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* cards  */
 .card {
     position: relative;
 }
@@ -69,11 +85,27 @@ img {
     width: 100%;
 }
 .card .discount {
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
     position: absolute;
-    background-color: green;
-    top: 0;
-    right: 0;
+    bottom: 45px;
+    left: 0;
 }
+
+.card  .discount.price{
+    background-color: #ff0000;
+    margin-left: 5px;
+    padding: 4px 7px;
+}
+
+.card  .discount.price{
+    background-color: #008000;
+    padding: 4px 7px;
+}
+
+
+
 
 .card .like {
     position: absolute;
