@@ -69,6 +69,14 @@ img {
 *{
     font-family: sans-serif;
 }
+nav>div{
+    font-weight: 700;
+    font-size: small;
+}
+
+
+
+
 
  .text small{
     font-family: inherit;
@@ -172,4 +180,11 @@ header nav  img{
 }
 .card:hover .card-image-default {
     display: none;
+}
+
+.btn{
+    border: none;
+    background-color: #ff6900;
+    color: white;
+    padding: 0 4px;
 }
