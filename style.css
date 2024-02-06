@@ -73,7 +73,9 @@ nav>div{
     font-weight: 700;
     font-size: small;
 }
-
+ .text{
+    cursor: pointer;
+ }
 
 
 
@@ -119,6 +121,7 @@ nav{
 header nav  img{
     height: 33px;
     justify-items: center;
+    cursor: pointer;
 }
 
 
@@ -133,6 +136,7 @@ header nav  img{
 
 /* cards  */
 .card {
+    cursor: pointer;
     position: relative;
 }
 .card img {
@@ -182,9 +186,26 @@ header nav  img{
     display: none;
 }
 
-.btn{
+.btn, nav div{
     border: none;
     background-color: #ff6900;
     color: white;
     padding: 0 4px;
+    cursor: pointer;
 }
+
+/* color  */
+
+footer{
+    padding: 15px 0;
+    background-color: #1a1a1a;
+    border-bottom: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+}
+
