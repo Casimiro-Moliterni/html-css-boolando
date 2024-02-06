@@ -61,12 +61,29 @@ img {
 }
 
 /* header  */
+header{
+       
+        padding: 18px 0;
+        margin-bottom: 60px;
+        color: white;
+        background-color: #ff6900;
+    }
 
 
 
 
+header img{
+    height: 33px;
+}
 
+header nav {
+    display: flex;
+    
+}
 
+nav div{
+    justify-content: space-between;
+}
 
 
 
